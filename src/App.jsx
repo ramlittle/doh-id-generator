@@ -1,12 +1,11 @@
 import { useState } from 'react'
-import './App.css'
+import ViewID from './components/ViewId.jsx';
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  
   return (
     <>
-      Hellow World
+      <ViewID/>
     </>
   )
 }
