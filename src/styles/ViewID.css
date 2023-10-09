@@ -1,5 +1,6 @@
+/* BIG OPTION */
 .viewID-container-big{
-    border: 0.25rem solid red;
+    border: 0.25px solid black;
     display:flex;
     flex-direction:column;
     width:1201px;
@@ -7,14 +8,38 @@
 }
 .id-header{
     display:flex;
-    align-items:center;
-    border: 0.25rem solid blue;
+    gap:2rem;
+    align-items:center;    
+    height:256.65px; /* 15% of 1711px*/
+    margin-left:auto;
+    margin-right:auto;
 }
 .doh-logo-container{
-    width:50px;
-    height:50px;
+    width:200px;
+    height:200px;
 }
 .doh-info-container{
     display:flex;
     flex-direction:column;
+    font-size: 50px;
+    color:#285848;
 }
+.doh-info-container span:nth-child(1){
+    font-size: 40px;
+}
+.doh-info-container span:nth-child(2){
+    font-size: 80px;
+    font-weight:bold;
+}
+.doh-info-container span:nth-child(3){
+    font-size: 30px;
+}
+.id-body{
+    background-image: url("https://i.ibb.co/JFSB94q/JO-and-Regular-front-behind-pic.png");
+    height: 769.95px; /* 45% of 1711px*/
+}
+.id-footer{
+    background-image: url("https://i.ibb.co/QcJQjCD/Regular-green-background.png");
+    height: 684.4px;  /* 40% of 1711px*/
+}
+

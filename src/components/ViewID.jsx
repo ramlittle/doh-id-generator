@@ -13,7 +13,10 @@ const ViewID =()=>{
                 </div>
             </div>
 
-            <div>
+            <div className="id-body">
+                
+            </div>
+            <div className="id-footer">
 
             </div>
         </section>
