@@ -1,5 +1,6 @@
 /* BIG OPTION */
 .viewID-container-big{
+    background-image:url("https://i.ibb.co/ZXnb7kq/white-background.png");
     border: 0.25px solid black;
     display:flex;
     flex-direction:column;
@@ -11,8 +12,7 @@
     gap:2rem;
     align-items:center;    
     height:256.65px; /* 15% of 1711px*/
-    margin-left:auto;
-    margin-right:auto;
+    justify-content:center;
 }
 .doh-logo-container{
     width:200px;
@@ -37,9 +37,71 @@
 .id-body{
     background-image: url("https://i.ibb.co/JFSB94q/JO-and-Regular-front-behind-pic.png");
     height: 769.95px; /* 45% of 1711px*/
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.employee-image-container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width: 700px;
+    height: 700px;
+}
+.employee-image-container > img{
+    border-radius: 50%;
+    border: 0.25px solid white;
 }
 .id-footer{
     background-image: url("https://i.ibb.co/QcJQjCD/Regular-green-background.png");
     height: 684.4px;  /* 40% of 1711px*/
+    color:white;
+    font-size: 50px;
 }
+.id-footer div:nth-child(1){
+    font-size: 120px;
+    font-weight:bold;
+    text-align:center;
+    margin-top:1rem;
+}
+.id-footer div:nth-child(2){
+    display:flex;
+    gap:1rem;
+    font-size: 50px;
+    width: 50%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:1rem;
+}
+.id-footer div:nth-child(3){
+    display:flex;
+    gap: 1rem;
+    font-size: 50px;
+    width: 90%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:1rem;
+    
+}
+.id-footer div:nth-child(4){
+    background-image:url("https://i.ibb.co/ZXnb7kq/white-background.png");
+    height: 200px;
+    width: 1100px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:1rem;
+    color:#285848;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size: 110px;
+}
+.id-footer div:last-child{
+    font-size:30px;
+    text-align:right;
+    width:1140px;
+    margin-top:1rem;
+
+}
+
 
