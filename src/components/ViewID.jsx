@@ -2,8 +2,7 @@ import '../styles/ViewID.css'
 const ViewID = () => {
     return (
         <section className="main">
-
-<section className="viewID-container-front">
+            <section className="viewID-container-front">
                 <div className="id-header">
                     <div className="doh-logo-container">
                         <img src="https://i.ibb.co/QKVmy0K/doh-logo.png" />
@@ -17,7 +16,7 @@ const ViewID = () => {
 
                 <div className="id-body">
                     <div className="employee-image-container">
-                        <img src="https://i.ibb.co/bQkdH3X/IMG-20230513-123417.jpg" />
+                        <img src="C:\Users\HP\Pictures\test.jpg" />
                     </div>
                 </div>
                 <div className="id-footer">
