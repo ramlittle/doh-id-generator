@@ -20,10 +20,10 @@ function App() {
   },[selectedImage,filePath])
   return (
     <>
-    <input type="text" onChange={(e)=>setFilePath(e.target.value)}/>
+    {/* <input type="text" onChange={(e)=>setFilePath(e.target.value)}/>
     <input type="file" accept="image/*" onChange={handleFileChange}/>
     {console.log(combineTerms())}
-      <img src={combineTerms()} />asdf
+      <img src={combineTerms()} />asdf */}
       <ViewID />
     </>
   )
